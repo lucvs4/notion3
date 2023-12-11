@@ -4,7 +4,6 @@ const imageNames = [
     "IMG-20220220-WA0009_Original",
     "Facetune_08-07-2023-01-46-39",
     "IMG-20220101-WA0039_Original",
-    // ... Adicione mais nomes aqui
     "Vó",
     "2019-11-27_160323as",
     "2019-11-12_1654441",
@@ -21,8 +20,8 @@ function displayRandomImage() {
     gallery.style.backgroundImage = `url('${images[randomIndex]}')`;
 }
 
-// Troca a imagem a cada 10 segundos
-setInterval(displayRandomImage, 10000);
+// Troca a imagem a cada 30seg
+setInterval(displayRandomImage, 500);
 
 // Inicializa com uma imagem aleatória
 displayRandomImage();
