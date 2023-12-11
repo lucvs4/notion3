@@ -21,7 +21,7 @@ function displayRandomImage() {
 }
 
 // Troca a imagem a cada 30seg
-setInterval(displayRandomImage, 500);
+setInterval(displayRandomImage, 100);
 
 // Inicializa com uma imagem aleatória
 displayRandomImage();
