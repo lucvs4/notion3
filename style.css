@@ -1,0 +1,8 @@
+#photo-gallery {
+    width: 300px;
+    height: 300px;
+    border: 1px solid #ddd;
+    margin: auto;
+    background-size: cover;
+    background-position: center;
+}
