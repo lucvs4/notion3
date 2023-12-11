@@ -65,8 +65,8 @@ function displayRandomImage() {
     gallery.style.backgroundImage = `url('${images[randomIndex]}')`;
 }
 
-// Troca a imagem a cada 5seg
-setInterval(displayRandomImage, 5000);
+// Troca a imagem a cada 10seg
+setInterval(displayRandomImage, 10000);
 
 // Inicializa com uma imagem aleatória
 displayRandomImage();
